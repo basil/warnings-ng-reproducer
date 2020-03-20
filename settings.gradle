@@ -1,0 +1,3 @@
+rootProject.name = 'warnings-ng-reproducer'
+include 'findbugs'
+include 'spotbugs'

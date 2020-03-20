@@ -1,0 +1,10 @@
+plugins {
+  id 'findbugs'
+}
+
+findbugs {
+  toolVersion = '3.0.1'
+  ignoreFailures = true
+  effort = 'max'
+  reportLevel = 'low'
+}

@@ -1,0 +1,10 @@
+plugins {
+  id 'com.github.spotbugs' version '4.0.4'
+}
+
+spotbugs {
+  toolVersion = '4.0.1'
+  ignoreFailures = true
+  effort = 'max'
+  reportLevel = 'low'
+}
